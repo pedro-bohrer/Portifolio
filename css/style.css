@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&family=Whisper&display=swap');
+
+:root {
+    --color-zero: #F7F2EC;
+    --color-one: #DBC4A2;
+    --color-two: #8A7E6D;
+    --color-three: #191919;
+    --color-four: #BFA2DB;
+    --color-five: #634283;
+}
+
+*{
+    margin: 0;
+}
+.body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--color-zero);
+    color: var(--color-three);
+}
+.header {
+    background-color: var(--color-two);
+    padding: 2%;
+}
+.header__nav {
+    display: flex;
+    gap: 40px;
+}
+.header__nav__link {
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-one);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.main__pt1 {
+    background-color: var(--color-three);
+    display: flex;
+    flex-direction: row;
+}
+.main__cont {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.main__title {
+    color: var(--color-one);
+    font-family: 'Whisper', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.main__text {
+    color: var(--color-two);
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: justify;
+}
+.main__img {
+    padding: 2%;
+    size-adjust: 50%;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+}
+.main__contact {
+    background-color: var(--color-three);
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.main__contact__link {
+    font-size: 1rem;
+    border: 2px solid var(--color-zero);
+    border-radius: 300px;
+    width: 150px;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--color-one);
+}
+.main__link:hover {
+    background-color: #634283;
+}
+.main__skill {
+    background-color: var(--color-four);
+    padding: 1%;
+    gap: 40px;
+}
+.main__skill__title {
+    padding: 0.5% 1%;
+    display: flex;
+    color: var(--color-zero);
+}
+.grid__skill {
+    display: grid;
+    grid-template-columns: 100% 100%;
+    display: inline-grid;
+    gap: 15px;
+  }
+.grid__item {
+    color: var(--color-zero);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.footer {
+    background-color: var(--color-one);
+    padding: 1.5%;
+}
+.footer__text {
+    color: var(--color-two);
+    display: flex;
+    justify-content: center;
+}
