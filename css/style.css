@@ -117,3 +117,24 @@
     display: flex;
     justify-content: center;
 }
+@media (max-width: 1200px) {
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+    .main__pt1 {
+        flex-direction: column-reverse;
+        padding: 5%;
+        align-items: center;
+    }
+    .main__cont {
+        width: auto;
+    }
+    .main__about {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .main__about__cont {
+        width: auto;
+    }
+}
