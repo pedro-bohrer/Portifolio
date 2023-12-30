@@ -64,8 +64,8 @@
     padding: 2%;
     size-adjust: 50%;
     border-radius: 50%;
-    height: 400px;
-    width: 400px;
+    height: 25%;
+    width: 25%;
 }
 .main__contact {
     background-color: var(--color-three);
@@ -159,6 +159,13 @@
     }
     .main__cont {
         width: auto;
+    }
+    .main__img {
+        padding: 2%;
+        size-adjust: 50%;
+        border-radius: 50%;
+        height: 40%;
+        width: 40%;
     }
     .main__about {
         flex-direction: column-reverse;
