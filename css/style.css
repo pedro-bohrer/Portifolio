@@ -20,6 +20,7 @@
 .header {
     background-color: var(--color-two);
     padding: 2%;
+    font-weight: 600;
 }
 .header__nav {
     display: flex;
@@ -109,6 +110,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .logo {
     height: 5%;
@@ -119,19 +122,6 @@
     height: 50px;
 }
 
-.workinprogress {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
-}
-.main__projects {
-    background-color: var(--color-one);
-    padding: 5%;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
 .footer {
     background-color: var(--color-one);
     padding: 1.5%;
@@ -141,6 +131,17 @@
     display: flex;
     justify-content: center;
 }
+
+/* Project Page */
+
+.main__pt1__project {
+    background-color: var(--color-three);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* */
 @media (max-width: 1200px) {
     .header {
         display: flex;
