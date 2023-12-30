@@ -40,6 +40,7 @@
     background-color: var(--color-three);
     display: flex;
     flex-direction: row;
+    padding: 10% 5%;
 }
 .main__cont {
     padding: 5%;
@@ -89,26 +90,25 @@
 }
 .main__skill {
     background-color: var(--color-four);
-    padding: 1%;
-    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    gap: 20px;
 }
 .main__skill__title {
-    padding: 0.5% 1%;
+    padding: 1% 1.5%;
     display: flex;
     justify-content: center;
     color: var(--color-zero);
-    gap: 40px;
 }
 .skill__tree {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
   }
 .tree__item {
     color: var(--color-zero);
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 
@@ -116,6 +116,10 @@
 .logo {
     max-width: 5%;
     max-height: 5%;
+}
+.logo__flag {
+    max-width: 10%;
+    max-height: 10%;
 }
 .html__log {
     width: 40px;
@@ -142,7 +146,7 @@
     justify-content: center;
 }
 
-/* */
+/* Cellphone view */
 @media (max-width: 1200px) {
     .header {
         display: flex;
@@ -166,5 +170,9 @@
     .logo {
         max-width: 10%;
         max-height: 10%;
+    }
+    .logo__flag {
+        max-width: 15%;
+        max-height: 15%;
     }
 }
