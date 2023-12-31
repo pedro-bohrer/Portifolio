@@ -145,6 +145,76 @@
     flex-direction: row;
     justify-content: center;
 }
+.project {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.project__img {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    margin: auto;
+    border: double;
+    border-color: aliceblue;
+    border-width: 10px;
+}
+.project__lang_tree {
+    display: flex;
+    gap: 20px;
+}
+.project__lang {
+    border: 2px solid var(--color-zero);
+    border-radius: 50px;
+    width: 8%;
+    padding: 15px 0;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+
+}
+.project__lang__txt {
+    font-size: 1rem;
+    color: var(--color-zero);
+    display: flex;
+    justify-content: center;
+}
+.circle__js {
+    height: 20px;
+    width: 20px;
+    background-color: #F0DB4F;
+    border-radius: 50%;
+}
+.circle__html {
+    height: 20px;
+    width: 20px;
+    background-color: #e34c26;
+    border-radius: 50%;
+}
+.circle__css {
+    height: 20px;
+    width: 20px;
+    background-color: #2965f1;
+    border-radius: 50%;
+}
+.lang__js {
+    color: #F0DB4F;
+}
+.lang__html {
+    color: #e34c26;
+}
+.lang__css {
+    color: #2965f1;
+}
+
+.project__description {
+    color: var(--color-zero);
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: justify;
+    display: flex;
+}
 
 /* Cellphone view */
 @media (max-width: 1200px) {
@@ -179,7 +249,7 @@
         max-height: 10%;
     }
     .logo__flag {
-        max-width: 15%;
-        max-height: 15%;
+        max-width: 200px;
+        max-height: 200px;
     }
 }
